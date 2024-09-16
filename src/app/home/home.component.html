@@ -1,0 +1,21 @@
+<!-- Directive ngStyle-->
+<div [ngClass]="{'red': error, 'green': !error}" [ngStyle]="{'backgroundColor':'#000', 'color': '#fff'}">Hello World</div>
+
+
+<!-- Directive ngClass 
+<div [ngClass]="{'red': error, 'green': !error}">Hello World</div>
+!-->
+
+<!-- Directive *ngFor 
+ <ul>
+    <li *ngFor="let item of items"><a href="">{{item}}</a></li>
+</ul>
+
+-->
+
+<!--Directive *ngIf
+<div class="box" *ngIf="isDisplayBox"></div>
+
+<button *ngIf="isDisplayBox" (click)="hideBox()">Hide</button>
+<button *ngIf="!isDisplayBox" (click)="hideBox()">Display</button>
+-->
